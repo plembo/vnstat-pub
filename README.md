@@ -9,7 +9,7 @@ A cron job is set up on the router to run the script every hour (```0 * * * *```
 
 In this case:
 
-* vnstati-update.sh is located under /homw/admin/bin
+* vnstati-update.sh is located under /home/admin/bin
 * image file on the router are created in /home/admin/vnstat
 * web page home is /data1/www/html/vnstati on the web server
 * url for accessing the page will be https://host.mydomain.com/vnstati
