@@ -1,5 +1,5 @@
 # Bandwidth reports using vnstat on EdgeRouter
-A set of scripts for using [vnstat](https://humdi.net/vnstat/) to report total bandwidth used on a network. Gateway is a Ubiquiti EdgeRouter. WAN interface is eth0.
+A script for using [vnstat](https://humdi.net/vnstat/) to report total bandwidth used on a network. Gateway is a Ubiquiti EdgeRouter. WAN interface is eth0.
 
 This solution requires configuring the router for [Debian packages](https://help.ui.com/hc/en-us/articles/205202560-EdgeMAX-Add-other-Debian-packages-to-EdgeOS) and then the install of ```vnstat```. A separate web server for publishing reports is also needed (the reports are not published on the router).
 
